@@ -1,0 +1,41 @@
+/* ... (ваши предыдущие стили) */
+
+.terms-conditions-content {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.terms-conditions-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.terms-conditions-content h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #2ecc71;
+}
+
+.terms-conditions-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.terms-conditions-content a {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+.terms-conditions-content a[href^="mailto"]::before {
+    content: "\1F4E7 ";
+}
+
+.terms-conditions-content a[href^="tel"]::before {
+    content: "\1F4DE ";
+}
+
+/* ... (ваши дополнительные стили) */

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenSolution</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="top-nav">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a class="logo__link" href="/">
+                        <img class="logo-img" src="./img/logo.jpeg" alt="">
+                    </a>
+                </div>
+                
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                
+                <ul class="menu">
+                    <li><a class="menu__item-link" href="#home">Home</a></li>
+                    <li><a class="menu__item-link" href="#news">News</a></li>
+                    <li><a class="menu__item-link" href="#about">About Us</a></li>
+                    <li><a class="menu__item-link" href="#services">Services</a></li>
+                    <li><a class="menu__item-link" href="#contact">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+      </header>
+
+      <div id="cookie-alert">
+        <p>This website uses cookies to ensure you get the best experience on our website. <a href="privacy-policy.html">Learn more</a></p>
+        <button id="close-cookie-alert">Got it!</button>
+    </div>
+
+    <section id="home" class="landing">
+        <div class="container">
+            <div class="landing-content">
+                <h1>Welcome to GreenSolutions</h1>
+                <p>Shaping a sustainable future through eco-friendly solutions and services.</p>
+                <a href="#services" class="cta-button">Explore Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="news-section">
+        <div class="container">
+
+                <h2>Latest News</h2>
+
+                <div class="news-cards">
+                    <div class="news-card">
+                        <img class="news-card__img" src="./img/news1.jpeg" alt="News Image 1">
+                        <div class="news-info">
+                            <h3>GreenSolutions Launches Eco-Friendly Packaging</h3>
+                            <p class="news-date">October 15, 2023</p>
+                            <p class="news-description">GreenSolutions is proud to announce the launch of our new eco-friendly packaging, reducing plastic waste and promoting sustainability.</p>
+                        </div>
+                    </div>
+        
+                    <div class="news-card">
+                        <img src="./img/news2.jpeg" alt="News Image 2">
+                        <div class="news-info">
+                            <h3>GreenSolutions Partners with Local Communities for Reforestation Project</h3>
+                            <p class="news-date">November 5, 2023</p>
+                            <p class="news-description">In collaboration with local communities, GreenSolutions initiates a reforestation project to contribute to environmental conservation and combat deforestation.</p>
+                        </div>
+                    </div>
+        
+                    <div class="news-card">
+                        <img src="./img/news3.jpeg" alt="News Image 3">
+                        <div class="news-info">
+                            <h3>GreenSolutions Achieves Carbon Neutrality</h3>
+                            <p class="news-date">December 20, 2023</p>
+                            <p class="news-description">We are excited to announce that GreenSolutions has achieved carbon neutrality, taking significant steps towards a greener and sustainable future.</p>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <div class="container">
+            <div class="about-us">
+                <h2>About GreenSolutions</h2>
+                <p>At GreenSolutions, we are on a mission to revolutionize the way businesses approach sustainability. With a deep-rooted commitment to environmental stewardship, we offer a comprehensive suite of services and products designed to empower organizations to thrive in an eco-conscious world.</p>
+            
+                <p>Our Core Values:</p>
+                <ul>
+                    <li><strong>Innovation:</strong> We continuously seek and develop cutting-edge solutions that redefine industry standards for sustainability.</li>
+                    <li><strong>Integrity:</strong> Our practices are guided by a strong ethical framework, ensuring transparency and accountability in everything we do.</li>
+                    <li><strong>Collaboration:</strong> We believe in the power of collaboration and actively work with businesses, communities, and experts to create lasting positive impact.</li>
+                    <li><strong>Responsibility:</strong> Recognizing the role businesses play in the global ecosystem, we take responsibility for our environmental footprint and inspire others to do the same.</li>
+                </ul>
+            
+                <p>Why Choose GreenSolutions?</p>
+                <ul>
+                    <li>Customized Sustainability Plans: Tailored solutions to meet the unique needs and goals of your business.</li>
+                    <li>Expert Consultation: Our team of sustainability experts is dedicated to guiding you through the process of creating a more sustainable future.</li>
+                    <li>Premium Eco-Friendly Products: Explore our range of high-quality, eco-conscious products designed to reduce environmental impact.</li>
+                    <li>Community Engagement: Join us in fostering a sense of environmental responsibility within the community through various outreach programs.</li>
+                </ul>
+            
+                <p>Our Vision:</p>
+                <p>We envision a world where businesses not only thrive economically but also play a pivotal role in preserving and enhancing the health of our planet. Together, let's build a sustainable future for generations to come.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="container">
+            <div id="services" class="services">
+                <h2>Our Services</h2>
+    
+                <div class="service-item">
+                    <img src="./img/friendly-products.jpeg" alt="Service 1">
+                    <h3>Eco-Friendly Products</h3>
+                    <p>Explore our extensive range of sustainable and eco-friendly products that cater to various aspects of your lifestyle. From biodegradable packaging to energy-efficient appliances, we provide options that make a positive impact on the planet.</p>
+                </div>
+    
+                <div class="service-item">
+                    <img src="./img/sustainability-consulting.jpeg" alt="Service 2">
+                    <h3>Sustainability Consulting</h3>
+                    <p>Partner with us for expert guidance on integrating sustainable practices into your business operations. Our seasoned consultants will work closely with your team to develop and implement customized sustainability strategies that align with your corporate values and goals.</p>
+                </div>
+    
+                <div class="service-item">
+                    <img src="./img/green-event.jpeg" alt="Service 3">
+                    <h3>Green Events Management</h3>
+                    <p>Host environmentally conscious events with our Green Events Management service. From waste reduction strategies to carbon-neutral event planning, we ensure that your events leave a minimal environmental footprint.</p>
+                </div>
+    
+                <div class="service-item">
+                    <img src="./img/carbon-footprint-assessment.jpeg" alt="Service 4">
+                    <h3>Carbon Footprint Assessment</h3>
+                    <p>Measure and analyze your organization's carbon footprint with our Carbon Footprint Assessment service. Our experts will identify areas for improvement and provide actionable recommendations to reduce your environmental impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <label for="privacyPolicyCheckbox">
+                    <div class="q">
+                        <input class="privacyPolicyCheckbox" type="checkbox" id="privacyPolicyCheckbox" required>
+                        I accept the <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+                    </div>
+                </label>
+    
+    
+                <button type="submit" class="cta-button">Send Message</button>
+
+            </form>
+        </div>
+    </section>
+
+  
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>123 Green Street, Cityville, Country</p>
+                    <p>Email: <a href="mailto:support@greensolutions.com">support@greensolutions.com</a></p>
+                    <p>Phone: <a href="tel:+123456789">+1 (234) 567-89</a></p>
+                </div>
+                <div class="legal-info">
+                    <ul>
+                        <li class="footer__list-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li class="footer__list-item"><a href="terms-conditions.html">Terms & Conditions</a></li>
+                        <li class="footer__list-item"><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15605.980646924114!2d-122.41941524354172!3d37.77492951752645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580c6fd704cf3%3A0xc34b6417db1080b!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1624562623611!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+    </footer>
+    
+    <script src="./js/cookies.js"></script>
+    <script src="./js/contactForm.js"></script>
+
+</body>
+</html>

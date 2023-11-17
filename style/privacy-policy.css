@@ -1,0 +1,42 @@
+.privacy-policy-content {
+    height: 100%;
+    padding: 50px;
+}
+
+.privacy-policy-content {
+    background-color: #f9f9f9; 
+    padding: 50px 20px; 
+}
+
+.privacy-policy-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.privacy-policy-content h2 {
+    font-size: 24px;
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    color: #2ecc71; 
+}
+
+.privacy-policy-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555; 
+}
+
+.privacy-policy-content a {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+.privacy-policy-content a[href^="mailto"]::before {
+    content: "\1F4E7 "; 
+}
+
+.privacy-policy-content a[href^="tel"]::before {
+    content: "\1F4DE ";
+}
