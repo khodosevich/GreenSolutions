@@ -194,14 +194,16 @@ header {
 /* ----------------landing------------------ */
 
 .landing {
-    /* background-image: url("./img/landing1.jpeg"); */
-   background-color: #222;
+    background-image: url("./img/landing.png");
+    object-fit: contain;
+   /* background-color: #222; */
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
     padding: 300px 20px;
     object-fit: cover;
+
 }
 
 .landing h1 {

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenSolution</title>
 
+    <meta name="description" content="GreenSolutions is committed to providing environmentally conscious products and expert sustainability consulting for businesses. Shaping a sustainable future through eco-friendly solutions and services.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -185,7 +187,7 @@
                 <div class="contact-info">
                     <h3>Get in Touch</h3>
                     <p>123 Green Street, Cityville, Country</p>
-                    <p>Email: <a href="mailto:support@greensolutions.com">support@greensolutions.com</a></p>
+                    <p>Email: <a href="mailto:" class="emailList">support@</a></p>
                     <p>Phone: <a href="tel:+123456789">+1 (234) 567-89</a></p>
                 </div>
                 <div class="legal-info">
@@ -206,6 +208,21 @@
     
     <script src="./js/cookies.js"></script>
     <script src="./js/contactForm.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const emailListElements = document.querySelectorAll(".emailList");
+            const hostname = window.location.hostname;
+            
+            emailListElements.forEach(function(element) {
+                const prefix = 'support@';
+                const emailAddress = prefix + hostname;
+                
+                element.setAttribute("href", "mailto:" + emailAddress);
+                element.innerHTML = emailAddress;
+            });
+        });
+    </script>
 
 </body>
 </html>
