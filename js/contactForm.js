@@ -1,5 +1,3 @@
-const { log } = require("console");
-
 document.addEventListener("DOMContentLoaded", function() {
     var contactForm = document.getElementById("contactForm");
     var nameInput = document.getElementById("name");
@@ -11,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     emailInput.value = savedFormData.email || "";
     messageInput.value = savedFormData.message || "";
 
-    var formData ;
+    var formData;
 
     contactForm.addEventListener("input", function() {
         formData = {
@@ -24,7 +22,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     contactForm.addEventListener("submit", function(event) {
         event.preventDefault();
-        console.log(formData)
+        console.log(formData);
+
         localStorage.removeItem("contactFormData");
+
+        window.location.href = "/GreenSolutions/thankyou.html";
     });
 });
